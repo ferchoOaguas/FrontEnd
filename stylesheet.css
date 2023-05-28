@@ -1,0 +1,345 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    margin: 10px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.idiomas{
+    width: 1024px;
+    height: 20px;
+    padding-left: 60px;
+    padding-right: 60px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    box-sizing: border-box;
+}
+
+.navBar {
+    width: 1024px;
+    height: 62px;
+    background-color: #F0A83E;
+    content: #FFFFFF;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row; 
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 60px;
+    padding-right: 60px;
+    box-sizing: border-box;
+}
+
+.enlaces {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 10px;
+}
+
+.banner{
+    width: 1024px;
+    height: 408px;
+    background-image: url(assets/bowl-and-pet-daities-on-green-background\ 1.png);
+    padding: 20px;
+    display: flex;
+    position: relative;
+    justify-content: end;
+    box-sizing: border-box;
+}
+
+#textoBanner{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#saludo{
+    width: 365px;
+    height: 54px;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    text-align: center;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+#comederosDescuento{
+    display: flex;
+    position: relative;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    top: 20px;
+}
+
+#comederosButton{
+    width: 141px;
+    height: 49px;
+    background: #F0A83E;
+    border-radius: 5px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #FFFFFF;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    top: 40px;
+}
+
+.productosDestacados{
+    width: 1024px;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px;
+    box-sizing: border-box;
+}
+
+#h1{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+#productos{
+    list-style-type: none;
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    justify-content: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    box-sizing: border-box;
+}
+
+.fotoProductos{
+    width: 1024px;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    padding-inline: 100px;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+#desFoto{
+    background-color: #FBFAF6;
+    width: 265px;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    padding-bottom: 10px;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+
+.formContacto{
+    width: 1024px;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px;
+    box-sizing: border-box;
+}
+
+#contacto{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    color: #3C2313;
+}
+
+#camposContacto{
+    width: 340px;
+    height: 40px;
+    margin: 15px;
+    padding-left: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: start;
+    background: #3C2313;
+    color: white;
+    border-radius: 15px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 9px;
+}
+
+button{
+    width: 110px;
+    height: 34px;
+    border-style: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: white;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+
+#suscribete{
+    width: 1024px;
+    height: 60px;
+    background-color: #F0A83E;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 40px;
+    box-sizing: border-box;
+}
+
+#suscribeteIconoTexto{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#suscribeteMensaje{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    color: white;
+    padding-left: 10px;
+}
+
+#suscribeteForm{
+    display: flex;
+    align-items: center;
+}
+
+#formCorreo{
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    width: 271px;
+    height: 40px;
+    background: #FFFFFF;
+    border-radius: 15px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 9px;
+    color: #A0A0A0;
+    margin-right: 10px;
+    box-sizing: border-box;
+}
+
+#formBoton{
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    width: 70px;
+    height: 34px;
+    background: #3C2313;
+    border-radius: 15px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 9px;
+    color: white;
+    box-sizing: border-box;
+}
+
+.fondoFooter{
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    width: 1024px;
+    height: 284px;
+    background-color: #3C2313;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+#infoContacto{
+    display: flex;
+    width: 268px;
+    flex-wrap: wrap;
+    position: relative;
+    justify-content: space-between;
+    align-items: start;
+    box-sizing: border-box;
+}
+
+#listaContacto{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: space-around;
+    box-sizing: border-box;
+    margin-left: 20px;
+    box-sizing: border-box;
+}
+
+#contactoTx1{
+    width: 168px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    color: white;
+}
+
+#contactoTx2{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    color: #8A8787;
+}
+
+#footerLogo{
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+}
