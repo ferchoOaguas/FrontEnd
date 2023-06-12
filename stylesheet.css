@@ -1,10 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-}
-
-li{
-    margin: 10px;
+    font-family: 'Roboto';
 }
 
 main{
@@ -13,35 +10,31 @@ main{
     justify-content: space-between;
 }
 
-.idiomas{
-    width: 1024px;
-    height: 20px;
-    padding-left: 60px;
-    padding-right: 60px;
+.idiomas .derechos{
+    width: 100vw;
+    height: 1.5vw;
+    padding-left: 6vw;
+    padding-right: 3vw;
     background-color: black;
     color: white;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 10px;
+    font-size: 0.7rem;
     box-sizing: border-box;
 }
 
 .navBar {
-    width: 1024px;
-    height: 62px;
+    width: 100vw;
+    height: 3.5vw;
     background-color: #F0A83E;
-    content: #FFFFFF;
     display: flex;
-    flex-wrap: wrap;
     flex-direction: row; 
     justify-content: space-between;
     align-items: center;
     padding-left: 60px;
     padding-right: 60px;
+    font-size: 1rem;
     box-sizing: border-box;
 }
 
@@ -50,14 +43,16 @@ main{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    margin: 10px;
+    color: white;
+    gap: 2.5vw;
 }
 
 .banner{
-    width: 1024px;
-    height: 408px;
+    width: 100vw;
+    height: 40vw;
     background-image: url(assets/bowl-and-pet-daities-on-green-background\ 1.png);
-    padding: 20px;
+    background-size: cover;
+    padding: 4vw;
     display: flex;
     position: relative;
     justify-content: end;
@@ -73,65 +68,52 @@ main{
 }
 
 #saludo{
-    width: 365px;
-    height: 54px;
     background-color: white;
     color: black;
-    border-radius: 5px;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 30px;
+    border-radius: 0.5rem;
+    font-weight: 355;
+    font-size: 3rem;
     text-align: center;
-    padding: 8px;
+    padding: 0.5vw;
     box-sizing: border-box;
 }
 
 #comederosDescuento{
     display: flex;
     position: relative;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    top: 20px;
+    font-size: 1.7rem;
+    top: 2vh;
 }
 
 #comederosButton{
-    width: 141px;
-    height: 49px;
     background: #F0A83E;
-    border-radius: 5px;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 19px;
+    border-radius: 0.5vw;
+    font-size: 1.7rem;
     text-align: center;
     color: #FFFFFF;
     display: flex;
     position: relative;
     justify-content: center;
     align-items: center;
-    top: 40px;
+    top: 4vh;
+    padding: 1vw;
 }
 
 .productosDestacados{
-    width: 1024px;
+    width: 100vw;
     display: flex;
     flex-wrap: wrap;
     position: relative;
     flex-direction: column;
     align-items: center;
-    margin: 30px;
+    margin: 3vw;
     box-sizing: border-box;
 }
 
 #h1{
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 40px;
+    font-size: 3rem;
+    font-weight: 500;
+    margin: 0.5vw;
 }
 
 #productos{
@@ -140,100 +122,91 @@ main{
     position: relative;
     flex-direction: row;
     justify-content: center;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 15px;
+    font-size: 1rem;
+    gap: 1rem;
     box-sizing: border-box;
 }
 
 .fotoProductos{
-    width: 1024px;
+    width: 100vw;
     display: flex;
     position: relative;
-    justify-content: space-between;
-    padding-inline: 100px;
+    justify-content: center;
+    gap: 2vw;
     align-items: center;
     box-sizing: border-box;
 }
 
 #desFoto{
     background-color: #FBFAF6;
-    width: 265px;
     display: flex;
     position: relative;
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    font-family: 'Roboto';
-    font-style: normal;
+    font-size: 1rem;
     font-weight: 500;
-    font-size: 15px;
-    padding-bottom: 10px;
+    padding: 2vw;
+    gap: 1vw;
     list-style-type: none;
     box-sizing: border-box;
 }
 
+#precio{
+    color: #F0A83E
+}
+
 .formContacto{
-    width: 1024px;
+    width: 100vw;
     display: flex;
     flex-wrap: wrap;
     position: relative;
     flex-direction: column;
     align-items: center;
-    margin: 50px;
+    margin: 6vw 0;
     box-sizing: border-box;
 }
 
 #contacto{
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 700;
-    font-size: 25px;
+    font-size: 2rem;
     color: #3C2313;
 }
 
 #camposContacto{
-    width: 340px;
-    height: 40px;
-    margin: 15px;
-    padding-left: 15px;
+    width: 25vw;
+    margin: 0.7vw;
+    padding: 1vw;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: start;
     background: #3C2313;
     color: white;
-    border-radius: 15px;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 9px;
+    border-radius: 0.8rem;
+    font-weight: 250;
+    font-size: 0.8rem;
 }
 
 button{
-    width: 110px;
-    height: 34px;
     border-style: none;
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 1rem;
     color: white;
-    border-radius: 15px;
-    margin-top: 20px;
+    border-radius: 0.8rem;
+    padding: 0.5vw;
+    width: 5vw;
+    margin: 0 0.3vw;
 }
 
 #suscribete{
-    width: 1024px;
-    height: 60px;
+    width: 100vw;
     background-color: #F0A83E;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    padding-left: 20px;
-    padding-right: 40px;
+    padding: 0.5vw 2vw;
     box-sizing: border-box;
 }
 
@@ -244,10 +217,8 @@ button{
 }
 
 #suscribeteMensaje{
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 700;
-    font-size: 20px;
+    font-size: 1rem;
     color: white;
     padding-left: 10px;
 }
@@ -255,37 +226,29 @@ button{
 #suscribeteForm{
     display: flex;
     align-items: center;
+    gap: 0.5vw;
+    padding-right: 2vw;
 }
 
 #formCorreo{
     display: flex;
     align-items: center;
-    padding-left: 10px;
-    width: 271px;
-    height: 40px;
+    width: 20vw;
+    padding: 0.5rem;
     background: #FFFFFF;
-    border-radius: 15px;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 9px;
+    border-radius: 0.7rem;
+    font-size: 1rem;
     color: #A0A0A0;
-    margin-right: 10px;
     box-sizing: border-box;
 }
 
 #formBoton{
     display: flex;
     align-items: center;
-    padding-left: 10px;
-    width: 70px;
-    height: 34px;
     background: #3C2313;
-    border-radius: 15px;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 9px;
+    border-radius: 0.7rem;
+    font-size: 1rem;
+    padding: 0.5rem;
     color: white;
     box-sizing: border-box;
 }
@@ -294,47 +257,44 @@ button{
     display: flex;
     position: relative;
     justify-content: space-between;
-    width: 1024px;
-    height: 284px;
+    width: 100vw;
     background-color: #3C2313;
-    padding: 30px;
+    padding: 2vw 5vw 2vw 2vw;
     box-sizing: border-box;
 }
 
 #infoContacto{
     display: flex;
-    width: 268px;
     flex-wrap: wrap;
     position: relative;
     justify-content: space-between;
+    flex-direction: column;
     align-items: start;
+    gap: 1vw;
     box-sizing: border-box;
 }
 
-#listaContacto{
+.listaContacto{
+    display: flex;
+    gap: 1vw;
+}
+
+#textoContacto{
     display: flex;
     position: relative;
     flex-direction: column;
-    justify-content: space-around;
-    box-sizing: border-box;
-    margin-left: 20px;
+    justify-content: start;
     box-sizing: border-box;
 }
 
 #contactoTx1{
-    width: 168px;
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 700;
-    font-size: 20px;
+    font-size: 1rem;
     color: white;
 }
 
 #contactoTx2{
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 10px;
+    font-size: 1rem;
     color: #8A8787;
 }
 
@@ -342,4 +302,182 @@ button{
     display: flex;
     align-items: center;
     box-sizing: border-box;
+}
+
+.derechos{
+    width: 100vw;
+    height: 1.5vw;
+    padding-left: 6vw;
+    padding-right: 3vw;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.7rem;
+    box-sizing: border-box;
+}
+
+/* Desktop screen 
+@media (min-width: 460px) {
+
+}*/
+
+/* Mobile screen */ 
+@media (max-width: 450px) {
+    
+    body{
+        font-size: 12px;
+    }
+
+    .idiomas{
+        display: none;
+    }
+
+    .enlaces{
+        display: none;
+    }
+
+    .navBar {
+        padding: 4vh;
+    }
+
+    .banner{
+        height: 50vh;
+    }
+
+    #textoBanner{
+        flex-direction: column;
+        justify-content: center;
+        align-items: end;
+    }
+    
+    #saludo{
+        font-size: 1.6rem;
+        width: 90vw;
+        padding: 1vh;
+    }
+    
+    #comederosDescuento{
+        font-size: 1rem;
+        top: 2vh;
+    }
+    
+    #comederosButton{
+        font-size: 1rem;
+        top: 4vh;
+        padding: 2vh;
+    }
+
+    #h1{
+        text-align: center;
+        font-weight: 600;
+    }
+    .productosDestacados{
+        margin: 3vh 0;
+        gap: 2vh;
+    }
+
+    .fotoProductos{
+        margin: 2vh 0;
+        flex-direction: column;
+        justify-content: center;
+        gap: 3vh;
+    }
+    
+    #contacto{
+        font-size: 3rem;
+        margin: 2vh;
+    }
+
+    #camposContacto{
+        width: 70vw;
+        margin: 1vw 0;
+        padding: 1.8vh;
+        border-radius: 1rem;
+        font-weight: 50;
+        font-size: 0.7rem;
+    }
+
+    button{
+        font-weight: 340;
+        font-size: 1.2rem;
+        border-radius: 1.5rem;
+        padding: 1.5vh;
+        width: 5vw;
+    }
+
+    #botonForm{
+        width: 45vw;
+        margin: 4vh 0;
+    }
+
+    #suscribete{
+        width: 100vw;
+        flex-direction: column;
+        align-items: start;
+        padding: 1vw 2vw;
+    }
+
+    #suscribeteIconoTexto{
+        flex-wrap: none;
+    }
+
+    #suscribeteMensaje{
+        font-weight: 600;
+        font-size: 1.3rem;
+        padding-left: 3vh;
+    }
+
+    #formCorreo{
+        width: 60vw;
+        padding: 1rem;
+        border-radius: 1rem;
+        font-size: 0.8rem;
+        margin: 2vw;
+    }
+
+    #formBoton{
+        border-radius: 1.5rem;
+        font-size: 1rem;
+        padding: 1rem;
+    }
+
+    .fondoFooter{
+        flex-direction: column-reverse;
+        align-items: end;
+        width: 100vw;
+        padding: 2vh 0;
+        gap: 2vh;
+    }
+
+    #infoContacto{
+        flex-direction: row;
+        width: 85vw;
+        gap: 3vh;
+    }
+
+    #textoContacto{
+        margin: 0 2vh;
+    }
+    
+    #contactoTx1{
+        font-weight: 600;
+        font-size: 2rem;
+    }
+
+    #contactoTx2{
+        font-size: 1rem;
+        font-weight: 500;
+    }
+
+    #footerLogo{
+        align-self: center;
+    }
+
+    .derechos{
+        height: 1vh;
+        font-size: 0.8rem;
+        padding: 1rem;
+    }
 }

@@ -16,19 +16,19 @@
         <div class="navBar">
             <img src="Assets\Logo.svg" alt="logoCatDog">
             <ul class="enlaces">
-                <li><a href="">Categorías </a></li>
-                <li><a href="">Pets </a></li>
-                <li><a href="">Nosotros</a></li>
-                <li><a href="">Contáctanos</a></li>
+                <li>Categorías</li>
+                <li>Pets</li>
+                <li>Nosotros</li>
+                <li>Contáctanos</li>
             </ul>
         </div>
-        <div class="banner">
+        <section class="banner">
             <div id="textoBanner">
                 <p id="saludo">¡Es un placer tenerte aquí!</p>
                 <p id="comederosDescuento">¡Comederos en descuento!</p>
                 <p id="comederosButton">COMEDEROS</p>
             </div>
-        </div>
+        </section>
     </header>
     <main>
         <div class="productosDestacados">
@@ -42,23 +42,23 @@
                 <li>Comida</li>
             </ul>
         </div>
-        <div class="fotoProductos">
+        <section class="fotoProductos">
             <div id="desFoto">
                 <img src="Assets\churrasquito.png" alt="Juguete churrassquito">
                 <p>Jueguete churrasquito</p>
-                <p style="color: #F0A83E;">$150</p>
+                <p id="precio">$150</p>
             </div>
             <div id="desFoto">
                 <img src="Assets\comedero.png" alt="Imagen comedero">
                 <p>Comedero para perro</p>
-                <p style="color: #F0A83E;">$250</p>
+                <p id="precio">$250</p>
             </div>
             <div id="desFoto">
                 <img src="Assets\Huesito.png" alt="Juguete huesito">
                 <p>Juguete huesito</p>
-                <p style="color: #F0A83E;">$650</p>
+                <p id="precio">$650</p>
             </div>
-        </div>
+        </section>
         <div class="formContacto">
             <p id="contacto">Contáctanos</p>
             <ul>
@@ -67,8 +67,8 @@
                 <li id="camposContacto">Teléfono</li>
             </ul>
             <div>
-                <button style="background-color: #8A8787;">Resetear</button>
-                <button style="background-color: #F0A83E;">Enviar</button>
+                <button id="botonForm" style="background-color: #8A8787;">Resetear</button>
+                <button id="botonForm" style="background-color: #F0A83E;">Enviar</button>
             </div>
         </div>
     </main>
@@ -83,29 +83,35 @@
                 <p id="formBoton">Suscribirme</p>
             </div>
         </div>
-        <div class="fondoFooter">
+        <section class="fondoFooter">
             <div id="infoContacto">
-                <img src="Assets\iconoLocalidad.svg" alt="icono ubicacion">
-                <div id="listaContacto">
-                    <p id="contactoTx1">Localidad</li>
-                    <p id="contactoTx2">Calle-provincia</li>
+                <div class="listaContacto">
+                    <img src="Assets\iconoLocalidad.svg" alt="icono ubicacion">
+                    <span id="textoContacto">
+                        <p id="contactoTx1">Localidad</li>
+                        <p id="contactoTx2">Calle-provincia</li>
+                        </span>
                 </div>
-                <img src="Assets\iconoTelefono.svg" alt="icono telefono">
-                    <div id="listaContacto">
+                <div class="listaContacto">
+                    <img src="Assets\iconoTelefono.svg" alt="icono telefono">
+                    <div id="textoContacto">
                         <p id="contactoTx1">Teléfono</li>
                         <p id="contactoTx2">Número de teléfono</li>
                     </div>
-                <img src="Assets\iconoCorreo.svg" alt="icono correo">
-                    <div id="listaContacto">
+                </div>
+                <div class="listaContacto">
+                    <img src="Assets\iconoCorreo.svg" alt="icono correo">
+                    <div id="textoContacto">
                         <p id="contactoTx1">Correo Electrónico</li>
                         <p id="contactoTx2">Dirección de correo</li>
                     </div>
+                </div>    
             </div>
             <div id="footerLogo">
                 <img src="Assets\logoBlanco.svg" alt="logoCatDog"> 
             </div>
-        </div>
-        <div class="idiomas">
+        </section>
+        <div class="derechos">
             <p><center>Todos los derechos reservados Front End</center></p>
         </div>
     </footer>
